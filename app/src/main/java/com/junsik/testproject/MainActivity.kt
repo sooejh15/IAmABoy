@@ -20,8 +20,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+
         Log.i("jjs", "TestLog1")
         Log.i("jjs", "TestLog11")
+        Log.i("jjs", "TestLog2")
+        Log.i("jjs", "TestLog3")
+        Log.i("jjs", "TestLog4")
+        Log.i("jjs", "TestLog5")
+
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
